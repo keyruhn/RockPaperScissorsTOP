@@ -5,15 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body></body>
 <script defer src="script.js"></script>
-<div>
-    <h1>ROCK, PAPER, SCISSORS</h1>
-    <button onclick="game()">Start Game</button>
-    <p>
-        This game is played in the console. Please open the javascript console in the browser
-    </p>
+<div class="body">
+    <div class="header">
+        <h1>ROCK, PAPER, SCISSORS</h1>
+    </div>
+    <div class="buttons-container">
+        <div class="button">
+            <input type="button" value="rock">
+        </div>
+        <div class="button">
+            <input type="button" value="paper">
+        </div>
+        <div class="button">
+            <input type="button" value="scissors">
+        </div>
+    </div>
+    <div class="output-result" id="outputResult"></div>
 </div>
-
 </html>
